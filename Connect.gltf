@@ -1,0 +1,177 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 27078,
+      "type": "VEC3",
+      "max": [
+        1.2278962135314941,
+        0.30786588788032532,
+        1.2913104295730591
+      ],
+      "min": [
+        -1.211214542388916,
+        -3.169684886932373,
+        -1.2198208570480347
+      ]
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 27078,
+      "type": "VEC3",
+      "max": [
+        0.99999558925628662,
+        0.99998080730438232,
+        0.999993085861206
+      ],
+      "min": [
+        -0.99996984004974365,
+        -1.0,
+        -0.99999833106994629
+      ]
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 27078,
+      "type": "VEC4",
+      "max": [
+        0.999998927116394,
+        0.99852633476257324,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -0.99852633476257324,
+        -1.0,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 27078,
+      "type": "VEC2",
+      "max": [
+        1.2998309135437012,
+        0.99995744228363037
+      ],
+      "min": [
+        1.9908111426047981E-06,
+        0.23465859889984131
+      ]
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5123,
+      "count": 156672,
+      "type": "SCALAR",
+      "max": [
+        27077.0
+      ],
+      "min": [
+        0.0
+      ]
+    }
+  ],
+  "asset": {
+    "version": "2.0"
+  },
+  "buffers": [
+    {
+      "uri": "Connect.bin",
+      "byteLength": 1613088
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 324936
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 324936,
+      "byteLength": 324936
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 649872,
+      "byteLength": 433248
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1083120,
+      "byteLength": 216624
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1299744,
+      "byteLength": 313344
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1.0,
+          0.7462293,
+          0.0,
+          1.0
+        ],
+        "metallicFactor": 0.0
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "name": "Node.1"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0
+        }
+      ],
+      "name": "Connect"
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "translation": [
+        1.02239764,
+        2.360157,
+        0.4499906
+      ],
+      "name": "Connect"
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ],
+      "name": "Connect"
+    }
+  ]
+}
